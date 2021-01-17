@@ -19,5 +19,5 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: build
-        if: ${{ github.event.issue.user.login }} == "zhangyu1818"
-        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/QmcwKGEbAyFtfybXBxvuSjFT54dc5dRLmAYNB5jxxXsbeZ/hUg65Lj4CV
+        if: ${{ github.github.actor }} == "zhangyu1818"
+        run: echo ${{ github.github.actor }} == "zhangyu1818"
