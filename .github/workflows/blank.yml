@@ -19,5 +19,5 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: build
-        if: ${{ github.github.actor }} == "zhangyu18181"
-        run: echo ${{ github.github.actor }} == "zhangyu1818"
+        if: github.actor == "zhangyu18181"
+        run: echo "$github..actor"
