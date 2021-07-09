@@ -1,0 +1,19 @@
+{
+  "name": "zhangyu1818-github-action-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangyu1818/github-actions-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangyu1818/github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/zhangyu1818/github-actions-demo#readme"
+}
